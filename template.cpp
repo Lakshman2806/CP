@@ -37,12 +37,12 @@ lli power(long long x, lli y, long long int p)
     return res;
 }
 #define ar array
-#define vl vector<lli>
-#define pl pair<lli, lli>
+#define vi vector<lli>
+#define pi pair<lli, lli>
 #define for_(i, x, n) for (lli i = x; i < n; i++)
 #define endl "\n"
 
-void solve()
+void solve(lli t, lli tc)
 {
     lli n;
     cin >> n;
@@ -60,6 +60,6 @@ int main(void)
     for_(t, 1, tc + 1)
     {
         // cout << "Case #" << t << ": ";
-        solve();
+        solve(t, tc);
     }
 }
