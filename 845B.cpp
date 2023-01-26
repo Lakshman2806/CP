@@ -55,6 +55,40 @@ int gcd(int a, int b)
 
 void solve(lli t, lli tc)
 {
+    /*
+    845A
+    lli n;
+    cin >> n;
+    vi a(n);
+    for_(i, 0, n)
+    {
+        cin >> a[i];
+    }
+    lli lastparity = a[0] % 2;
+    lli x = 0;
+    lli ans = 0;
+    for_(i, 1, n)
+    {
+        if (a[i] % 2 != lastparity)
+        {
+            lastparity = a[i] % 2;
+            ans += x;
+            x = 0;
+        }
+        else
+        {
+            x++;
+        }
+    }
+    cout << ans + x << endl;
+    */
+    
+    
+    
+    
+    
+    /*
+    845B
     lli n;
     cin >> n;
     lli ans =n;
@@ -63,6 +97,11 @@ void solve(lli t, lli tc)
         ans = (ans*i)%mod;
     }
     cout << ans << endl;
+    */
+    
+    
+    
+    
 }
 
 // cout << ans << endl;
