@@ -59,7 +59,7 @@ void solve(lli t, lli tc)
 }
 
 
-void iniatialization()
+void initialization()
 {
 }
 
@@ -75,7 +75,7 @@ int main(void)
     cin >> tc;
     // tc = 1;
     // ans[1] = 1;
-    iniatialization();
+    initialization();
     for_(t, 1, tc + 1)
     {
         // cout << "Case #" << t << ": ";
